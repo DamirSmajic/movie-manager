@@ -2,13 +2,6 @@ package main
 
 import "fmt"
 
-type Movie struct {
-	Title    string
-	Genre    string
-	Rating   float32
-	Director string
-}
-
 func addMovie(user *User) {
 	title := promptInput("Enter movie title: ")
 	genre := promptInput("Enter movie genre: ")
